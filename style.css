@@ -172,11 +172,10 @@ font-weight: 800;
      padding-top: 20px;
 }
 form{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 form label{
-    padding-left: 10px;
     color: white;
      
 
@@ -184,28 +183,24 @@ form label{
 form input{
     background-color:rgba(0, 0, 0, 0.422);
     border: none;
-    width: 90%;
-    margin-left: 10px;
+    width: 100%;
      border-radius: 2px;
      padding-top: 10px;
 }
 form textarea{
      background-color:rgba(0, 0, 0, 0.422);
     border: none;
-    width: 90%;
-    margin-left: 10px;
+    width: 100%;
     border-radius: 2px;
 }
-.form-main .c-btn{
-    width: 90%;
+.form-main button{
+    width: 100%;
     background-color: blue;
     text-align: center;
-    margin-left: 10px;
      padding: 8px;
      border-radius: 4px;
+     color: white;
+     border: none;
+    
 }
-.form-main a{
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
+
