@@ -23,6 +23,10 @@ header{
     list-style: none;
     font-weight: 600;
 }
+.list li a{
+    text-decoration: none;
+    color:black;
+}
 .list .list-btn a{
     text-decoration: none;
      padding:2px 4px 2px 4px;  
@@ -88,10 +92,10 @@ font-weight: 800;
     margin-top: 50px;
 }
 .feature-box{
-    width:26%;
+    width:30%;
     background-color: rgba(0, 0, 0, 0.53);
     border-radius: 10px;
-    padding:1rem;
+    padding:2rem;
 }
 .feature-main{
     display: flex;
@@ -171,7 +175,7 @@ font-weight: 800;
     text-align: center;
 }
 .form-main{
-    width: 40%;
+    width: 50%;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.614);
      border-radius: 10px;
@@ -209,6 +213,7 @@ form textarea{
 .main-contact{
     padding:3rem;
 }
+
 
 .map-main{
     display: flex;
