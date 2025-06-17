@@ -8,28 +8,31 @@ body{
     background-color: rgba(0, 0, 255, 0.443);
 }
 header{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding:20px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.main h1{
+.logo a{
     color: blue;
-    font-size: 24px;    
+    font-size: 24px;
+    text-decoration: none; 
+    font-weight: bold; 
 }
 .list li{
     list-style: none;
     font-weight: 600;
 }
-.list a{
+.list .list-btn a{
     text-decoration: none;
-    padding: 2px;
+     padding:2px 4px 2px 4px;  
     background-color: blue;
     color: white;
     border-radius: 4px;
+
 }
-.head-main{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.box1 span{
+    color:blue;
 }
 .list ul{
     display: flex;
@@ -50,6 +53,7 @@ font-weight: 800;
 .box1 p{
     font-size: 14px;
     color:rgba(255, 255, 255, 0.642);
+    padding: 10px 0px;
 }
 .box1  a{
     text-decoration: none;
@@ -63,18 +67,20 @@ font-weight: 800;
     font-weight: bold;
 }
 .box2{
-    width:50%;
+    width:500px;
     padding-right: 20px;
-    margin-top:40px ;
+
 }
 .box2 img{
     width:100%;
-    height: 300px;
+    height: 100%;
+    object-fit: cover;
 }
 .box-main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2rem 0px;
 }
 .features h2{
     text-align: center;
@@ -83,17 +89,16 @@ font-weight: 800;
 }
 .feature-box{
     width:26%;
-    height:130px;
     background-color: rgba(0, 0, 0, 0.53);
     border-radius: 10px;
-    padding:10px;
+    padding:1rem;
 }
 .feature-main{
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 10px; 
 }
 .feature-box i{
     color:white;
@@ -102,6 +107,7 @@ font-weight: 800;
 .feature-box h3{
     color:white;
     font-size: 14px;
+    padding:14px;
 }
 .feature-box p{
     color:rgba(255, 255, 255, 0.596);
@@ -114,15 +120,14 @@ font-weight: 800;
 }
 .product-box{
     width: 30%;
-    height: 290px;
     background-color: rgba(0, 0, 0, 0.575);
     padding: 10px;
     border-radius: 10px;
 }
 .image{
    margin: auto;
-    width: 96%;
-    height:175px;
+    width: 350px;
+    height:180px;
 }
 .image img{
     width: 100%;
@@ -133,12 +138,15 @@ font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  padding: 10px 20px 0 20px;
+    padding: 20px 20px;
 }
 .product-box h3{
     color:white;
     font-size: 14px;
     padding: 10px 0 0 10px;
+}
+.main-product{
+    padding: 3rem 0;
 }
 .product-box p{
     color:rgba(255, 255, 255, 0.537);
@@ -161,24 +169,20 @@ font-weight: 800;
 .contact h2{
     color: white;
     text-align: center;
-    margin-top: 50px;
 }
 .form-main{
-    width: 30%;
+    width: 40%;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.614);
-    margin: auto;
      border-radius: 10px;
-     padding-top: 20px;
+    
 }
 form{
-    padding-left: 20px;
-    padding-right: 20px;
+   padding: 10px 20px;
+
 }
 form label{
     color: white;
-     
-
 }
 form input{
     background-color:rgba(0, 0, 0, 0.422);
@@ -201,6 +205,18 @@ form textarea{
      border-radius: 4px;
      color: white;
      border: none;
-    
+}
+.main-contact{
+    padding:3rem;
 }
 
+.map-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    
+}
+iframe{
+    border-radius: 8px;
+}
